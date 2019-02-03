@@ -1,0 +1,10 @@
+C:\Users\AZZA ELGENDY\Desktop\PROG2070Assign1\PROG2070Assign1\obj\Debug\PROG2070Assign1.csproj.CoreCompileInputs.cache
+C:\Users\AZZA ELGENDY\Desktop\PROG2070Assign1\PROG2070Assign1\bin\Debug\PROG2070Assign1.exe.config
+C:\Users\AZZA ELGENDY\Desktop\PROG2070Assign1\PROG2070Assign1\bin\Debug\PROG2070Assign1.exe
+C:\Users\AZZA ELGENDY\Desktop\PROG2070Assign1\PROG2070Assign1\bin\Debug\PROG2070Assign1.pdb
+C:\Users\AZZA ELGENDY\Desktop\PROG2070Assign1\PROG2070Assign1\bin\Debug\nunit.framework.dll
+C:\Users\AZZA ELGENDY\Desktop\PROG2070Assign1\PROG2070Assign1\bin\Debug\nunit.framework.pdb
+C:\Users\AZZA ELGENDY\Desktop\PROG2070Assign1\PROG2070Assign1\bin\Debug\nunit.framework.xml
+C:\Users\AZZA ELGENDY\Desktop\PROG2070Assign1\PROG2070Assign1\obj\Debug\PROG2070Assign1.csproj.CopyComplete
+C:\Users\AZZA ELGENDY\Desktop\PROG2070Assign1\PROG2070Assign1\obj\Debug\PROG2070Assign1.exe
+C:\Users\AZZA ELGENDY\Desktop\PROG2070Assign1\PROG2070Assign1\obj\Debug\PROG2070Assign1.pdb
