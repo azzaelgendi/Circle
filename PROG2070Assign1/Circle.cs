@@ -34,12 +34,14 @@ namespace PROG2070Assign1
         //Methods to work with the circle
         public int GetRadius()
         {
+            
             return radius;
         }
 
         public void SetRadius(int radius)
         {
             this.radius = radius;
+            return radius;
         }
         //Calculate the circle Circumferance
         public double GetCircumference()
