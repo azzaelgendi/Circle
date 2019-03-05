@@ -1,4 +1,4 @@
-﻿/*Prog 2070-Quality Assurance 
+/*Prog 2070-Quality Assurance 
  * Winter 2019
  * Assignment 1 ,Circle App
  * Revision History :Azza Elgendy
@@ -26,37 +26,41 @@ namespace PROG2070Assign1
             bool menueBool = true;
             //circle new object
             Circle circle = new Circle();
-            do
+            bool userRadius()
             {
-                //Ask user for entry
-                Console.WriteLine("Please Enter the radius of your circle and press Enter afterwards: ");
-                Console.WriteLine("___________________________________________");
-                try
+                do
                 {
-                    //read the user entry
-                    radius = int.Parse(Console.ReadLine());
+                    //Ask user for entry
+                    Console.WriteLine("Please Enter the radius of your circle and press Enter afterwards: ");
+                    Console.WriteLine("___________________________________________");
+                    try
+                    {
+                        //read the user entry
+                        radius = int.Parse(Console.ReadLine());
 
-                    if (radius < 0)
+                        if (radius < 0)
+                        {
+                            //error message
+                            Console.WriteLine("Please Enter an integer greater than zero");
+                            return true;
+                        }
+                        else
+                        {
+                            //correct = false;
+                            return true;
+                        }
+                        
+                    }
+                    catch (FormatException ex)
                     {
                         //error message
-                        Console.WriteLine("Please Enter an integer greater than zero");
+                        Console.WriteLine("Error:Please Enter an integer ");
+                        return false;
                     }
-                    else
-                    {
-                        correct = false;
+                } while (correct);
 
-                    }
-                }
-                catch (FormatException ex)
-                {
-                    //error message
-                    Console.WriteLine("Error:Please Enter an integer ");
-                }
-            } while (correct);
-
-
-
-
+            }
+            userRadius();
             do
             {
                 //showing a menu to work with the circle
@@ -89,8 +93,9 @@ namespace PROG2070Assign1
                         Console.WriteLine("The Radius is-----" + radius);
                         break;
                     case 2:
+                        userRadius();
                         circle.SetRadius(radius);
-                        Console.WriteLine("The Radius is-----" + radius);
+                            Console.WriteLine("The Radius is-----" + radius);
                         break;
                     case 3:
                         circle.GetCircumference();
